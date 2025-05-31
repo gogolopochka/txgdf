@@ -1,0 +1,146 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.header {
+  background: #1f1f1f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.main {
+  padding: 40px 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.product {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+  color: #000;
+}
+
+.product button {
+  background: #1f1f1f;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav a {
+  margin-left: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer {
+  background: #1f1f1f;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+iframe {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.footer .socials {
+  margin: 20px 0;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+  .nav a{
+  position: relative;
+  display: inline-block;
+  margin-left: 25px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #2b2b2b;
+  box-shadow: 0 4px 0 #111;
+  transition: all 0.3s ease;
+}
+.nav a:hover {
+  background: #444;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.product button {
+  background: #1f1f1f;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+.product button:hover {
+  transform: scale(1.05);
+  background: #333;
+}
